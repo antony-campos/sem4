@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Exito</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulario enviado con exito</h1>
+        <p>Nombre: <span th:text="${user.name}"></span></p>
+        <p>Email: <span th:text="${user.email}"></span></p>
+        <p>Apellido Paterno: <span th:text="${user.apellidoP}"></span></p>
+        <p>Apellido Materno: <span th:text="${user.apellidoM}"></span></p>
+        <p>Fecha de Nacimiento: <span th:text="${user.fec_nac}"></span></p>
+        <p>Residencia: <span th:text="${user.direccion}"></span></p>
+        <p>Edad: <span th:text="${user.edad}"></span></p>
+        <p>Telefono: <span th:text="${user.telef}"></span></p>
+    </body>
+</html>
